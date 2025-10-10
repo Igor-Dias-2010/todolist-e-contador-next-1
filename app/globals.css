@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.everthing{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.everthing a{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    transition: 0.3s;
+}
+.everthing a:hover{
+    text-decoration: underline;
+}
+.list{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list a{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    transition: 0.3s;
+}
+.list a:hover{
+    text-decoration: underline;
+}
+.list input{
+    padding: 3px 5px;
+    border: 2px solid #aaa7a7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.list button{
+    padding: 3px 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    border: 2px solid #aaa7a7;
+    font-size: 16px;
+    font-family: monospace, sans-serif, 'Segoe UI';
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+.list button:hover{
+    transform: scale(1.1);
+}
+.counter{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.counter a{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    transition: 0.3s;
+}
+.counter a:hover{   
+    text-decoration: underline;
+}
+.counter button{
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    font-family: monospace, sans-serif, 'Segoe UI';
+    cursor: pointer;
+    border: 2px solid #aaa7a7;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    transition: 0.3s;
+}
+.counter button:hover{
+    transform: scale(1.1);
+}   
+.counter button:active{
+    transform: scale(0.9);
+}
+.counter h1{
+    font-size: 50px;
+}
+.counter p{
+    font-size: 90px;
+    font-family: monospace, sans-serif, 'Segoe UI';
+}
